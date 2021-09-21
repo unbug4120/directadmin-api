@@ -49,6 +49,19 @@ class DirectAdmin
         return $result;
     }
 
+    public function changeUserPassword($username, $password)
+    {
+        $query = [
+            'username' => $username,
+            'passwd' => $password,
+            'passwd2' => $password,
+        ];
+
+        $result = $this->process('POST', 'CMD_USER_PASSWD', $query);
+
+        return $result;
+    }
+
     public function suspendAccount($userToSuspend)
     {
         $query = [

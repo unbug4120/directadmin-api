@@ -7,7 +7,7 @@ Support Laravel 7.x
 ### Step 1. install the package
 
 ```
-composer require unbug4120/directadmin
+composer require unbug4120/directadmin-api
 ```
 
 ### Step 2. publish config file
@@ -15,7 +15,7 @@ composer require unbug4120/directadmin
 publish config file with this command
 
 ```bash
-php artisan vendor:publish --provider="Gegeriyadi\LaravelDirectAdmin\DirectAdminServiceProvider"
+php artisan vendor:publish --provider="Unbug4120\LaravelDirectAdmin\DirectAdminServiceProvider"
 ```
 
 ### Step 3. add your directadmin credential on .env file
@@ -43,7 +43,7 @@ code example:
 ### Get user list
 
 ```php
-use Gegeriyadi\LaravelDirectAdmin\Facades\DirectAdmin;
+use Unbug4120\LaravelDirectAdmin\Facades\DirectAdmin;
 
 $result = DirectAdmin::getUserList();
 
@@ -52,11 +52,11 @@ dd($result);
 
 ### Create new account
 
-To create new account you must add `Gegeriyadi\LaravelDirectAdmin\NewAccountParameter` class for pass the new account parameter.
+To create new account you must add `Unbug4120\LaravelDirectAdmin\NewAccountParameter` class for pass the new account parameter.
 
 ```php
-use Gegeriyadi\LaravelDirectAdmin\Facades\DirectAdmin;
-use Gegeriyadi\LaravelDirectAdmin\NewAccountParameter;
+use Unbug4120\LaravelDirectAdmin\Facades\DirectAdmin;
+use Unbug4120\LaravelDirectAdmin\NewAccountParameter;
 
 $newAccount = new NewAccountParameter();
 $newAccount->domain = 'new-domain.com';
@@ -73,7 +73,7 @@ dd($result);
 ### Delete an account
 
 ```php
-use Gegeriyadi\LaravelDirectAdmin\Facades\DirectAdmin;
+use Unbug4120\LaravelDirectAdmin\Facades\DirectAdmin;
 
 $userToDelete = 'usertodelete';
 
@@ -85,7 +85,7 @@ dd($result);
 ### Suspend an account
 
 ```php
-use Gegeriyadi\LaravelDirectAdmin\Facades\DirectAdmin;
+use Unbug4120\LaravelDirectAdmin\Facades\DirectAdmin;
 
 $userToSuspend = 'usertosuspend';
 
@@ -97,7 +97,7 @@ dd($result);
 ### Unsuspend an account
 
 ```php
-use Gegeriyadi\LaravelDirectAdmin\Facades\DirectAdmin;
+use Unbug4120\LaravelDirectAdmin\Facades\DirectAdmin;
 
 $userToUnsuspend = 'usertounsuspend';
 

@@ -13,7 +13,7 @@ class DirectAdminServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('gegeriyadi-laravel-directadmin', function() {
+        $this->app->bind('unbug4120-laravel-directadmin', function() {
             return new DirectAdmin();
         });
     }

@@ -1,0 +1,27 @@
+{
+    "name": "gegeriyadi/laravel-directadmin",
+    "description": "Simple wrapper for directadmin api.",
+    "require": {
+        "guzzlehttp/guzzle": "^7.1@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gegeriyadi",
+            "email": "gegeriyadi81@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Gegeriyadi\\LaravelDirectAdmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gegeriyadi\\LaravelDirectAdmin\\DirectAdminServiceProvider"
+            ]
+        }
+    }
+}

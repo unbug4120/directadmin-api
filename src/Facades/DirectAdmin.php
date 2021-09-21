@@ -1,6 +1,6 @@
 <?php
 
-namespace Gegeriyadi\LaravelDirectAdmin\Facades;
+namespace Unbug4120\LaravelDirectAdmin\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class DirectAdmin extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'gegeriyadi-laravel-directadmin';
+        return 'unbug4120-laravel-directadmin';
     }
 }

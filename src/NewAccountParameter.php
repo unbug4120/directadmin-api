@@ -1,10 +1,10 @@
 <?php
 
-namespace Gegeriyadi\LaravelDirectAdmin;
+namespace Unbug4120\LaravelDirectAdmin;
 
 /**
  * Class NewAccountParameter
- * @package Gegeriyadi\LaravelDirectAdmin
+ * @package Unbug4120\LaravelDirectAdmin
  */
 class NewAccountParameter extends DirectAdmin
 {

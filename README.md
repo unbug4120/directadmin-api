@@ -7,7 +7,7 @@ Support Laravel 7.x
 ### Step 1. install the package
 
 ```
-composer require gegeriyadi/directadmin
+composer require unbug4120/directadmin
 ```
 
 ### Step 2. publish config file

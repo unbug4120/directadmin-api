@@ -1,9 +1,9 @@
 <?php
 
-namespace Gegeriyadi\LaravelDirectAdmin;
+namespace Unbug4120\LaravelDirectAdmin;
 
-use Gegeriyadi\LaravelDirectAdmin\DirectAdminApi;
-use Gegeriyadi\LaravelDirectAdmin\NewAccountParameter;
+use Unbug4120\LaravelDirectAdmin\DirectAdminApi;
+use Unbug4120\LaravelDirectAdmin\NewAccountParameter;
 
 class DirectAdmin
 {

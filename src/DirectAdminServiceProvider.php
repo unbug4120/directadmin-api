@@ -1,6 +1,6 @@
 <?php
 
-namespace Gegeriyadi\LaravelDirectAdmin;
+namespace Unbug4120\LaravelDirectAdmin;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,5 +1,5 @@
 {
-    "name": "gegeriyadi/laravel-directadmin",
+    "name": "unbug4120/directadmin-api",
     "description": "Simple wrapper for directadmin api.",
     "require": {
         "guzzlehttp/guzzle": "^7.1@dev"
@@ -7,20 +7,20 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "gegeriyadi",
-            "email": "gegeriyadi81@gmail.com"
+            "name": "unbug4120",
+            "email": "iduongdat@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Gegeriyadi\\LaravelDirectAdmin\\": "src/"
+            "Unbug4120\\LaravelDirectAdmin\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Gegeriyadi\\LaravelDirectAdmin\\DirectAdminServiceProvider"
+                "Unbug4120\\LaravelDirectAdmin\\DirectAdminServiceProvider"
             ]
         }
     }
